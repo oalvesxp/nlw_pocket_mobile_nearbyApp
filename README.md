@@ -1,4 +1,4 @@
-<img src="https://imgur.com/a/EPqORYs" alt="banner">
+<img src="https://i.imgur.com/TxFsie5.png" alt="banner">
 
 Nearby App
 

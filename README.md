@@ -49,6 +49,12 @@ npm install
 npx expo start
 ```
 
+Altere o IP do Axios para garantir comunicação com a API
+```javascript
+// mobile/src/services
+baseURL: 'http://<seu-ip>:3333',
+```
+
 Para executar o app no seu smartphone faça o download do [Expo Go](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR&pli=1) e escanei o QrCode que aparecer no seu terminal.
 
 Para executar no emulador do Android Studio, inicie o Virtual Device Manager e aperte 'A' no seu terminal.

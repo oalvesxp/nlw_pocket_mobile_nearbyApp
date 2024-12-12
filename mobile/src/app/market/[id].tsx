@@ -64,7 +64,7 @@ export default function Market() {
     try {
       setCouponIsFetching(true)
 
-      const { data } = await api.patch(`/coupons/${id}`)
+      const { data } = await api.patch("/coupons/" + id)
 
       Alert.alert("Cupom", data.coupon)
       setCoupon(data.coupon)
